@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#friendsList{
+	font-family: "Microsoft YaHei";
+	width: 100%;
+}
+#friendsList > li{
+	list-style: none;
+	border-bottom: 1px solid #666;
+	width: 100%;
+	height: 80px; 
+}
+#friendsList > li > img{
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+}
+#friendsList > li > div{
+	float: left;
+}
+#friendsList > li > h3{
+	font-size: 2em;
+	font-weight: bold;
+}
+#friendsList > li > p{
+	font-size: 0.5em;
+}
+#friendsList > li > button{
+	float: right;
+}
